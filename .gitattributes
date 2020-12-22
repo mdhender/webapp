@@ -1,0 +1,18 @@
+*.adoc   text eol=lf
+*.css    text eol=lf
+*.go     text eol=lf
+*.gohtml text eol=lf
+*.html   text eol=lf
+*.js     text eol=lf
+*.json   text eol=lf
+*.jsx    text eol=lf
+*.lex    text eof=lf
+*.md     text eol=lf
+*.psv    text eol=lf
+*.sh     text eol=lf
+*.txt    text eol=lf
+
+.gitattributes text eol=lf export-ignore
+.gitignore     text eol=lf export-ignore
+Dockerfile     text eol=lf
+LICENSE        text eol=lf
