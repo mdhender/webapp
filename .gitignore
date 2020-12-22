@@ -12,12 +12,9 @@
 .env.test
 .node_repl_history
 .tern-port
-.yarn-integrity
 lerna-debug.log*
 npm-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-yarn-debug.log*
-yarn-error.log*
 
 .cache/
 .dynamodb/
@@ -46,3 +43,13 @@ logs/
 node_modules/
 pids/
 typings/
+
+# call out yarn
+.yarn-integrity
+.yarn/*
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+yarn-debug.log*
+yarn-error.log*
